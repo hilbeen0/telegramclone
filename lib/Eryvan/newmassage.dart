@@ -1,7 +1,7 @@
-class myapp extends statelesswidget {
-  const myapp({super.key});
-  @override
-  widget build(BuildContext context) {
-    return Container();
-  }
+class HelloWorld extends StatelessWidget {
+  const HelloWorld({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return Container() ;
+  }
 }
