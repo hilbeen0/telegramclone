@@ -1,11 +1,7 @@
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
-class newmessage extends StatelessWidget {
-  const newmessage({super.key});
-
+class myapp extends statelesswidget {
+  const myapp({super.key});
   @override
-  Widget build(BuildContext context) {
+  widget build(BuildContext context) {
     return Container();
   }
 }
