@@ -3,7 +3,6 @@ import 'package:telegramclone/Eryvan/newmassage.dart';
 import 'package:telegramclone/Nidar/MessageScreen.dart';
 import 'package:telegramclone/alind/profileScreen.dart';
 import 'package:telegramclone/hlbin/chatScreen.dart';
-import 'package:telegramclone/rayan/rayan.dart';
 
 void main() {
   runApp(MaterialApp(
