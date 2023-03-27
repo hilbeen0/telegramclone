@@ -5,6 +5,3 @@ void main() {
       home: HelloWorldApp(),
     ));
 }
-
-
-
