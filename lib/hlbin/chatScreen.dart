@@ -19,6 +19,11 @@ class chat extends StatelessWidget {
         ],
         backgroundColor: Color.fromRGBO(115, 163, 153, 1),
       ),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 10),
+        ),
+      ),
     );
   }
 }
