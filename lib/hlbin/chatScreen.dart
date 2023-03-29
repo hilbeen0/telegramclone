@@ -33,6 +33,7 @@ class chat extends StatelessWidget {
               var name = DataConfig.chate.elementAt(index).name;
               var mass = DataConfig.chate.elementAt(index).mass;
               var date = DataConfig.chate.elementAt(index).date;
+              var num1 = DataConfig.chate.elementAt(index).num1;
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
               );
