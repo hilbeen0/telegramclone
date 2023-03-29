@@ -37,6 +37,16 @@ class chat extends StatelessWidget {
               var num = DataConfig.chate.elementAt(index).num;
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Row(children: [
+                  Container(
+                      height: 68,
+                      width: 68,
+                      margin: const EdgeInsets.symmetric(vertical: 10),
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        image: DecorationImage(image: AssetImage(imag)),
+                      )),
+                ]),
               );
             }),
           ]),
