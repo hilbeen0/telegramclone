@@ -51,5 +51,12 @@ class DataConfig {
         date: '7:00 am',
         num: true,
         num1: 1),
+    DataConfig(
+        image: "images/i7.jpg",
+        name: "Shakira",
+        mass: "Hi,Programmer,iam...",
+        date: 'Thu',
+        num: true,
+        num1: 3),
   ];
 }
