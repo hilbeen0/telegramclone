@@ -68,6 +68,38 @@ class chat extends StatelessWidget {
                       ],
                     ),
                   ),
+                  const Spacer(),
+                  Column(
+                    children: [
+                      Text(
+                        date,
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 16,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 7,
+                      ),
+                      if (num == true)
+                        Container(
+                          alignment: Alignment.center,
+                          width: 27,
+                          height: 27,
+                          decoration: BoxDecoration(
+                              color: Colors.grey,
+                              borderRadius: BorderRadius.circular(20)),
+                          child: Text(
+                            num1.toString(),
+                            style: TextStyle(
+                              fontWeight: FontWeight.w500,
+                              color: Colors.white,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ),
+                    ],
+                  )
                 ]),
               );
             }),
