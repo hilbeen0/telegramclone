@@ -37,16 +37,72 @@ class chat extends StatelessWidget {
               var num = DataConfig.chate.elementAt(index).num;
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
-                child: Row(children: [
-                  Container(
-                      height: 68,
-                      width: 68,
-                      margin: const EdgeInsets.symmetric(vertical: 10),
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        image: DecorationImage(image: AssetImage(imag)),
-                      )),
-                ]),
+                child: Row(
+                  children: [
+                    Container(
+                        height: 68,
+                        width: 68,
+                        margin: const EdgeInsets.symmetric(vertical: 10),
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          image: DecorationImage(image: AssetImage(imag)),
+                        )),
+                    Padding(
+                      padding: EdgeInsets.only(left: 10),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            name,
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 22,
+                                fontWeight: FontWeight.w500),
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            mass,
+                            style: TextStyle(color: Colors.black, fontSize: 14),
+                          ),
+                        ],
+                      ),
+                    ),
+                    const Spacer(),
+                    Column(
+                      children: [
+                        Text(
+                          date,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 16,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 7,
+                        ),
+                        if (num == true)
+                          Container(
+                            alignment: Alignment.center,
+                            width: 27,
+                            height: 27,
+                            decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(20)),
+                            child: Text(
+                              num1.toString(),
+                              style: TextStyle(
+                                fontWeight: FontWeight.w500,
+                                color: Colors.white,
+                                fontSize: 14,
+                              ),
+                            ),
+                          ),
+                      ],
+                    )
+                  ],
+                ),
               );
             }),
           ]),
