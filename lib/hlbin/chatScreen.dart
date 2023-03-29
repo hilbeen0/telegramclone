@@ -29,6 +29,7 @@ class chat extends StatelessWidget {
               height: 10,
             ),
             ...List.generate(DataConfig.chate.length, (index) {
+              var imag = DataConfig.chate.elementAt(index).image;
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
               );
