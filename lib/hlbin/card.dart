@@ -23,5 +23,12 @@ class DataConfig {
       num: true,
       num1: 10,
     ),
+    DataConfig(
+        image: "images/i1.jpg",
+        name: "Selena Gomez",
+        mass: "Hi,Programmer,iam...",
+        date: '9:54 pm',
+        num: true,
+        num1: 9),
   ];
 }
