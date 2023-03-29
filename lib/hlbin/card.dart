@@ -93,5 +93,12 @@ class DataConfig {
         date: '2023/2/1',
         num: false,
         num1: 0),
+    DataConfig(
+        image: "images/i6.jpg",
+        name: "Maluma",
+        mass: "Hi,Programmer,iam...",
+        date: '2023/1/11',
+        num: false,
+        num1: 0),
   ];
 }
