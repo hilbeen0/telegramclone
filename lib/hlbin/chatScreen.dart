@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
+import 'card.dart';
+
 class chat extends StatelessWidget {
   const chat({super.key});
 
@@ -26,6 +28,11 @@ class chat extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
+            ...List.generate(DataConfig.chate.length, (index) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+              );
+            }),
           ]),
         ),
       ),
