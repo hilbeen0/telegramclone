@@ -46,6 +46,28 @@ class chat extends StatelessWidget {
                         shape: BoxShape.circle,
                         image: DecorationImage(image: AssetImage(imag)),
                       )),
+                  Padding(
+                    padding: EdgeInsets.only(left: 10),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          name,
+                          style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 22,
+                              fontWeight: FontWeight.w500),
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          mass,
+                          style: TextStyle(color: Colors.black, fontSize: 14),
+                        ),
+                      ],
+                    ),
+                  ),
                 ]),
               );
             }),
