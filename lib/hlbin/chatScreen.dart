@@ -17,6 +17,7 @@ class chat extends StatelessWidget {
             size: 30,
           )
         ],
+        backgroundColor: Color.fromRGBO(115, 163, 153, 1),
       ),
     );
   }
