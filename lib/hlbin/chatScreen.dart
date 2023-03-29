@@ -11,6 +11,12 @@ class chat extends StatelessWidget {
       appBar: AppBar(
         title: Text("Telegram"),
         centerTitle: false,
+        actions: [
+          Icon(
+            Icons.search,
+            size: 30,
+          )
+        ],
       ),
     );
   }
