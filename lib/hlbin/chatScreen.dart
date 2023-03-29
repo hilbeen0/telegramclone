@@ -32,6 +32,7 @@ class chat extends StatelessWidget {
               var imag = DataConfig.chate.elementAt(index).image;
               var name = DataConfig.chate.elementAt(index).name;
               var mass = DataConfig.chate.elementAt(index).mass;
+              var date = DataConfig.chate.elementAt(index).date;
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
               );
