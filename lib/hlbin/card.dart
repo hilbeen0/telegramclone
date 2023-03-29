@@ -58,5 +58,12 @@ class DataConfig {
         date: 'Thu',
         num: true,
         num1: 3),
+    DataConfig(
+        image: "images/i8.jpg",
+        name: "Gigi Hadid",
+        mass: "Hi,Programmer,iam...",
+        date: 'Mar ',
+        num: false,
+        num1: 0),
   ];
 }
