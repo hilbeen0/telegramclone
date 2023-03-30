@@ -22,6 +22,11 @@ class profile extends StatelessWidget {
                   Text(
                     "0751 797 9339",
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
+                  ),
+                  Icon(
+                    Icons.keyboard_arrow_down_outlined,
+                    size: 25,
+                    color: Colors.white,
                   )
                 ],
               )),
