@@ -46,7 +46,7 @@ class newmessage extends StatelessWidget {
                     'Sorted by name',
                     style: TextStyle(
                       fontFamily: 'Arial',
-                      fontSize: 12,
+                      fontSize: 18,
                       color: Colors.grey,
                       height: 1,
                     ),
