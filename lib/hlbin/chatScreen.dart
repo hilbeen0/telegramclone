@@ -20,7 +20,7 @@ class chat extends StatelessWidget {
             size: 30,
           )
         ],
-        backgroundColor: Color.fromRGBO(115, 163, 153, 1),
+        backgroundColor: Color.fromARGB(156, 7, 145, 230),
       ),
       drawer: Drawer(
         child: profile(),
@@ -91,7 +91,7 @@ class chat extends StatelessWidget {
                           width: 27,
                           height: 27,
                           decoration: BoxDecoration(
-                              color: Colors.grey,
+                              color: Color.fromARGB(156, 7, 145, 230),
                               borderRadius: BorderRadius.circular(20)),
                           child: Text(
                             num1.toString(),
@@ -111,9 +111,11 @@ class chat extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Color.fromRGBO(156, 7, 145, 230),
+        backgroundColor: Color.fromARGB(156, 7, 145, 230),
         child: Icon(Icons.create),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushNamed(context, '/newmessage');
+        },
       ),
     );
   }
