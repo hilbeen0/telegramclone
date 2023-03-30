@@ -41,6 +41,16 @@ class profile extends StatelessWidget {
   }
 
   Title({required String msg, required IconData icon}) {
-    return ListTile();
+    return ListTile(
+      leading: Icon(
+        icon,
+        size: 30,
+      ),
+      title: Text(
+        msg,
+        style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
+      ),
+      onTap: (() {}),
+    );
   }
 }
