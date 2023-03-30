@@ -20,6 +20,7 @@ class conectcard extends StatelessWidget {
       Positioned(
           top: 50,
           left: 55,
+          bottom: 0.5,
           child: Container(
               alignment: AlignmentDirectional.topEnd,
               width: 100,
