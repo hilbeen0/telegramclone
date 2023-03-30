@@ -16,7 +16,15 @@ class profile extends StatelessWidget {
                 "alnd barware",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
               ),
-              accountEmail: Row()),
+              accountEmail: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "0751 797 9339",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
+                  )
+                ],
+              )),
         )
       ],
     );
