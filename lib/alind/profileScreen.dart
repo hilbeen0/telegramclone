@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:telegramclone/alind/datamodel.dart';
 
 class profile extends StatelessWidget {
   const profile({super.key});
@@ -35,7 +36,15 @@ class profile extends StatelessWidget {
               backgroundColor: Colors.amber,
             ),
           ),
-        )
+        ),
+        Title(msg: userlist[0].name, icon: userlist[0].icon),
+        Title(msg: userlist[1].name, icon: userlist[1].icon),
+        Title(msg: userlist[2].name, icon: userlist[2].icon),
+        Title(msg: userlist[3].name, icon: userlist[3].icon),
+        Title(msg: userlist[4].name, icon: userlist[4].icon),
+        Title(msg: userlist[5].name, icon: userlist[5].icon),
+        Divider(),
+        Title(msg: userlist[6].name, icon: userlist[6].icon),
       ],
     );
   }
@@ -50,7 +59,7 @@ class profile extends StatelessWidget {
         msg,
         style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
       ),
-      onTap: (() {}),
+      onTap: () {},
     );
   }
 }
