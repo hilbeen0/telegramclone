@@ -108,9 +108,11 @@ class chat extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Color.fromRGBO(115, 163, 153, 1),
+        backgroundColor: Color.fromRGBO(156, 7, 145, 230),
         child: Icon(Icons.create),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushNamed(context, '/newmessage');
+        },
       ),
     );
   }
