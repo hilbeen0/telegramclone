@@ -8,7 +8,17 @@ class profile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      children: [],
+      children: [
+        GestureDetector(
+          onTap: () {},
+          child: UserAccountsDrawerHeader(
+              accountName: Text(
+                "alnd barware",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
+              ),
+              accountEmail: Row()),
+        )
+      ],
     );
   }
 }
