@@ -98,6 +98,7 @@ class ChatPage extends StatelessWidget {
             ChatSample(),
             ChatSample(),
             ChatSample(),
+            ChatSample(),
           ],
         ),
         ),
