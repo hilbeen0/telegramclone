@@ -18,7 +18,7 @@ class ChatSample extends StatelessWidget{
             decoration: BoxDecoration(
               color: Color.fromARGB(255, 255, 254, 254),
             ),
-            child: Text("Hi Nidar ,How are you?.   2:30pm",
+            child: Text("Hi User  ,How are you?.   2:30pm",
         style: TextStyle(fontSize: 17,color: Colors.black),
             ),
          ),

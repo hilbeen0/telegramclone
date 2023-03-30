@@ -45,7 +45,7 @@ class ChatPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Nidar",style: TextStyle(fontSize: 19),
+              Text("User",style: TextStyle(fontSize: 19),
               ),
               SizedBox(height: 5,),
               Text("online",style: TextStyle(fontSize: 15,
