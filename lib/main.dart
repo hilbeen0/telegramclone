@@ -7,7 +7,7 @@ import 'package:telegramclone/hlbin/chatScreen.dart';
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: '/ChatPage',
+    initialRoute: '/chat',
     routes: {
       '/profile': (context) => profile(),
       '/chat': (context) => chat(),
