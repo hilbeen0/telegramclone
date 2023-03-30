@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
+import '../hlbin/card.dart';
 import 'a.dart';
 import 'b.dart';
 import 'c.dart';
