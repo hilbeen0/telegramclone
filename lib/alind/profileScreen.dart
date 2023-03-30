@@ -39,4 +39,6 @@ class profile extends StatelessWidget {
       ],
     );
   }
+
+  Title({required String msg, required IconData icon}) {}
 }
