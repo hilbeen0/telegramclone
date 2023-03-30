@@ -5,3 +5,5 @@ class user {
   IconData icon;
   user({required this.name, required this.icon});
 }
+
+List<user> userlist = [];
