@@ -8,6 +8,10 @@ import 'a.dart';
 import 'b.dart';
 import 'c.dart';
 
+void main() {
+  runApp(newmessage());
+}
+
 class newmessage extends StatelessWidget {
   const newmessage({super.key});
 
