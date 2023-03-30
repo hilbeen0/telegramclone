@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 class ChatSample extends StatelessWidget{
   @override
   Widget build(BuildContext context){
+  
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -12,7 +13,7 @@ class ChatSample extends StatelessWidget{
         child: ClipPath(
           clipper: UpperNipMessageClipper(MessageType.recieve),
           child: Container(
-            padding: 
+           padding: 
             EdgeInsets.only(top: 10,bottom: 10,left: 25,right: 10,),
             decoration: BoxDecoration(
               color: Color.fromARGB(255, 255, 254, 254),
@@ -20,7 +21,7 @@ class ChatSample extends StatelessWidget{
             child: Text("Hi Nidar ,How are you?.   2:30pm",
         style: TextStyle(fontSize: 17,color: Colors.black),
             ),
-          ),
+         ),
         ),
         ),
         Container(
@@ -28,12 +29,12 @@ class ChatSample extends StatelessWidget{
           margin: EdgeInsets.only(top: 20,left: 80,bottom: 15),
           child: ClipPath(
             clipper: UpperNipMessageClipper(MessageType.send),
-            child: Container(
+           child: Container(
               padding: 
-              EdgeInsets.only(top: 10,bottom: 10,left: 10,right: 20,),
-              decoration: BoxDecoration(
-                color: Color(0xFFE4FDCA)
-              ),
+             EdgeInsets.only(top: 10,bottom: 10,left: 10,right: 20,),
+             decoration: BoxDecoration(
+               color: Color(0xFFE4FDCA)
+             ),
               child: Text("Hellow ,I am  fine and well,and thanks for asking .               4:30pm",
               style: TextStyle(fontSize: 17,color: Colors.black),
               ),
@@ -44,12 +45,5 @@ class ChatSample extends StatelessWidget{
       ],
     );
   }
-  
-  UpperNipMessageClipper(recieve) {}
 }
 
-class MessageType {
-  static var recieve;
-  
-  static var send;
-}
