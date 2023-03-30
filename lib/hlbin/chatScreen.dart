@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
+import '../alind/profileScreen.dart';
 import 'card.dart';
 
 class chat extends StatelessWidget {
@@ -21,7 +22,9 @@ class chat extends StatelessWidget {
         ],
         backgroundColor: Color.fromRGBO(115, 163, 153, 1),
       ),
-      drawer: Drawer(),
+      drawer: Drawer(
+        child: profile(),
+      ),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 10),
