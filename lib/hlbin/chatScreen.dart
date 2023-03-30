@@ -55,12 +55,17 @@ class chat extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          name,
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 22,
-                              fontWeight: FontWeight.w500),
+                        InkWell(
+                          onTap: () {
+                            Navigator.pushNamed(context, '/message');
+                          },
+                          child: Text(
+                            name,
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 22,
+                                fontWeight: FontWeight.w500),
+                          ),
                         ),
                         SizedBox(
                           height: 10,
