@@ -101,4 +101,6 @@ class DataConfig {
         num: false,
         num1: 0),
   ];
+
+  get datee => null;
 }
