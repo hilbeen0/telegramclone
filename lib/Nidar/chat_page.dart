@@ -38,14 +38,14 @@ class ChatPage extends StatelessWidget {
         children: [
           ClipRRect(
             borderRadius: BorderRadius.circular(30),
-            child: Image.asset("images/i99.jpg",
+            child: Image.asset("images/flutter.jpg",
             height: 45,),
           ),
           Padding(padding: EdgeInsets.only(left: 10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Nidar",style: TextStyle(fontSize: 19),
+              Text("User",style: TextStyle(fontSize: 19),
               ),
               SizedBox(height: 5,),
               Text("online",style: TextStyle(fontSize: 15,
@@ -94,6 +94,7 @@ class ChatPage extends StatelessWidget {
               ),
               child: Text("                 "),
             ),
+            ChatSample(),
             ChatSample(),
             ChatSample(),
             ChatSample(),

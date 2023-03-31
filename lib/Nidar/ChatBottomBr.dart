@@ -22,7 +22,7 @@ class ChatBottomBr extends StatelessWidget{
                 size: 30,
                 ),
                 SizedBox(width: 10,),
-                Container(width: 257,
+                Container(width: 225,
                 child: TextFormField(
                   style: TextStyle(
                     fontSize: 19,
@@ -33,10 +33,13 @@ class ChatBottomBr extends StatelessWidget{
                   ),
                 ),
                 ),
+                //SizedBox(width: 100,),
                 Icon(Icons.attachment_outlined,
                 color: Colors.black38,
+
                 ),
-                SizedBox(width: 1,),
+                
+               // SizedBox(width:100,),
                 Icon(Icons.mic,
                 color: Colors.black38,
                 size: 30,
