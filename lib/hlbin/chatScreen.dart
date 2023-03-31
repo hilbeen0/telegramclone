@@ -95,20 +95,17 @@ class chat extends StatelessWidget {
                             if (num == true)
                               Container(
                                 alignment: Alignment.center,
-                                child: Container(
-                                  alignment: Alignment.center,
-                                  width: 27,
-                                  height: 27,
-                                  decoration: BoxDecoration(
-                                      color: Color.fromARGB(156, 7, 145, 230),
-                                      borderRadius: BorderRadius.circular(20)),
-                                  child: Text(
-                                    num1.toString(),
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.w500,
-                                      color: Colors.white,
-                                      fontSize: 14,
-                                    ),
+                                width: 27,
+                                height: 27,
+                                decoration: BoxDecoration(
+                                    color: Color.fromARGB(156, 7, 145, 230),
+                                    borderRadius: BorderRadius.circular(20)),
+                                child: Text(
+                                  num1.toString(),
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w500,
+                                    color: Colors.white,
+                                    fontSize: 14,
                                   ),
                                 ),
                               ),
