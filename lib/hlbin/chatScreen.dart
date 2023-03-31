@@ -30,7 +30,7 @@ class chat extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 10),
           child: ListView(children: [
             const SizedBox(
-              height: 10,
+              height: 5,
             ),
             ...List.generate(DataConfig.chate.length, (index) {
               var imag = DataConfig.chate.elementAt(index).image;
@@ -47,7 +47,7 @@ class chat extends StatelessWidget {
                       Container(
                           height: 68,
                           width: 68,
-                          margin: const EdgeInsets.symmetric(vertical: 10),
+                          margin: const EdgeInsets.symmetric(vertical: 5),
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             image: DecorationImage(image: AssetImage(imag)),
@@ -70,7 +70,7 @@ class chat extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              height: 10,
+                              height: 8,
                             ),
                             Text(
                               mass,
