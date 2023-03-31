@@ -38,7 +38,6 @@ class newmessage extends StatelessWidget {
         body: Center(
           child: ListView(
             children: [
-              conectcard(),
               const SizedBox(
                 height: 10,
               ),
