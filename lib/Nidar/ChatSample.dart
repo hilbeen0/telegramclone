@@ -1,4 +1,4 @@
-//import 'package:custom_clippers/custom_clippers.dart';
+import 'package:custom_clippers/custom_clippers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -11,14 +11,14 @@ class ChatSample extends StatelessWidget{
       children: [
         Padding(padding: EdgeInsets.only(right: 80),
         child: ClipPath(
-          //clipper: UpperNipMessageClipper(MessageType.recieve),
+          clipper: UpperNipMessageClipper(MessageType.receive),
           child: Container(
            padding: 
             EdgeInsets.only(top: 10,bottom: 10,left: 25,right: 10,),
             decoration: BoxDecoration(
               color: Color.fromARGB(255, 255, 254, 254),
             ),
-            child: Text("Hi Nidar ,How are you?.   2:30pm",
+            child: Text("Hi User  ,How are you?.   2:30pm",
         style: TextStyle(fontSize: 17,color: Colors.black),
             ),
          ),
@@ -28,7 +28,7 @@ class ChatSample extends StatelessWidget{
           alignment: Alignment.centerRight,
           margin: EdgeInsets.only(top: 20,left: 80,bottom: 15),
           child: ClipPath(
-           // clipper: UpperNipMessageClipper(MessageType.send),
+          clipper: UpperNipMessageClipper(MessageType.send),
            child: Container(
               padding: 
              EdgeInsets.only(top: 10,bottom: 10,left: 10,right: 20,),
