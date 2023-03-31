@@ -80,7 +80,7 @@ class conectcard extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: Text("Sorted by name",
                       style: TextStyle(
-                        fontSize: 10,
+                        fontSize: 14,
                         color: Colors.black,
                         fontWeight: FontWeight.w700,
                       )),
