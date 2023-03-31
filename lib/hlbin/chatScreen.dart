@@ -41,75 +41,81 @@ class chat extends StatelessWidget {
               var num = DataConfig.chate.elementAt(index).num;
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
-                child: Row(children: [
-                  Container(
-                      height: 68,
-                      width: 68,
-                      margin: const EdgeInsets.symmetric(vertical: 10),
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        image: DecorationImage(image: AssetImage(imag)),
-                      )),
-                  Padding(
-                    padding: EdgeInsets.only(left: 10),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        InkWell(
-                          onTap: () {
-                            Navigator.pushNamed(context, '/message');
-                          },
-                          child: Text(
-                            name,
-                            style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 22,
-                                fontWeight: FontWeight.w500),
-                          ),
-                        ),
-                        SizedBox(
-                          height: 10,
-                        ),
-                        Text(
-                          mass,
-                          style: TextStyle(color: Colors.black, fontSize: 14),
-                        ),
-                      ],
-                    ),
-                  ),
-                  const Spacer(),
-                  Column(
-                    children: [
-                      Text(
-                        date,
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 16,
-                        ),
-                      ),
-                      SizedBox(
-                        height: 7,
-                      ),
-                      if (num == true)
-                        Container(
-                          alignment: Alignment.center,
-                          width: 27,
-                          height: 27,
+                child: Column(
+                  children: [
+                    Row(children: [
+                      Container(
+                          height: 68,
+                          width: 68,
+                          margin: const EdgeInsets.symmetric(vertical: 10),
                           decoration: BoxDecoration(
-                              color: Color.fromARGB(156, 7, 145, 230),
-                              borderRadius: BorderRadius.circular(20)),
-                          child: Text(
-                            num1.toString(),
+                            shape: BoxShape.circle,
+                            image: DecorationImage(image: AssetImage(imag)),
+                          )),
+                      Padding(
+                        padding: EdgeInsets.only(left: 10),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            InkWell(
+                              onTap: () {
+                                Navigator.pushNamed(context, '/message');
+                              },
+                              child: Text(
+                                name,
+                                style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.w500),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              mass,
+                              style:
+                                  TextStyle(color: Colors.black, fontSize: 14),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const Spacer(),
+                      Column(
+                        children: [
+                          Text(
+                            date,
                             style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              color: Colors.white,
-                              fontSize: 14,
+                              color: Colors.black,
+                              fontSize: 16,
                             ),
                           ),
-                        ),
-                    ],
-                  ),
-                ]),
+                          SizedBox(
+                            height: 7,
+                          ),
+                          if (num == true)
+                            Container(
+                              alignment: Alignment.center,
+                              width: 27,
+                              height: 27,
+                              decoration: BoxDecoration(
+                                  color: Color.fromARGB(156, 7, 145, 230),
+                                  borderRadius: BorderRadius.circular(20)),
+                              child: Text(
+                                num1.toString(),
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w500,
+                                  color: Colors.white,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ),
+                        ],
+                      ),
+                      Divider(),
+                    ]),
+                  ],
+                ),
               );
             }),
           ]),
