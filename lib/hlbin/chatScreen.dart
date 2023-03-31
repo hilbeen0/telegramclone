@@ -93,23 +93,19 @@ class chat extends StatelessWidget {
                               height: 7,
                             ),
                             if (num == true)
-                              Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(horizontal: 10),
-                                child: Container(
-                                  alignment: Alignment.center,
-                                  width: 27,
-                                  height: 27,
-                                  decoration: BoxDecoration(
-                                      color: Color.fromARGB(156, 7, 145, 230),
-                                      borderRadius: BorderRadius.circular(20)),
-                                  child: Text(
-                                    num1.toString(),
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.w500,
-                                      color: Colors.white,
-                                      fontSize: 14,
-                                    ),
+                              Container(
+                                alignment: Alignment.center,
+                                width: 27,
+                                height: 27,
+                                decoration: BoxDecoration(
+                                    color: Color.fromARGB(156, 7, 145, 230),
+                                    borderRadius: BorderRadius.circular(20)),
+                                child: Text(
+                                  num1.toString(),
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w500,
+                                    color: Colors.white,
+                                    fontSize: 14,
                                   ),
                                 ),
                               ),
