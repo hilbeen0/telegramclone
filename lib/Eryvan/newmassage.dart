@@ -33,8 +33,6 @@ class newmessage extends StatelessWidget {
           child: ListView(
             children: [
               conectcard(),
-              group(),
-              newgr(),
               Container(
                 width: 240.0,
                 height: 42.0,
