@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget{
          theme: ThemeData(
         scaffoldBackgroundColor: Color.fromARGB(156, 7, 145, 230),
         appBarTheme: AppBarTheme(
-          color: Color.fromARGB(133, 43, 120, 122),
+          color: Color.fromARGB(156, 7, 145, 230),
         ),
           bottomSheetTheme: BottomSheetThemeData(
        backgroundColor: Colors.black.withOpacity(0),
