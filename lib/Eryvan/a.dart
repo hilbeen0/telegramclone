@@ -73,7 +73,7 @@ class conectcard extends StatelessWidget {
           Row(
             children: [
               Container(
-                width: 1030,
+                width: 900,
                 height: 20,
                 color: Color.fromARGB(255, 247, 240, 240),
                 child: Padding(
