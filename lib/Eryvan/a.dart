@@ -19,25 +19,19 @@ class conectcard extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 40),
               child: Column(
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Row(
-                      children: [
-                        Container(
-                            child: Icon(
-                          Icons.supervisor_account,
-                          color: Colors.grey,
-                        )),
-                        Padding(
-                          padding: EdgeInsets.only(left: 10),
-                          child: Text("New Group",
-                              style: TextStyle(
-                                fontSize: 10,
-                                color: Colors.black,
-                              )),
-                        ),
-                      ],
-                    ),
+                  Row(
+                    children: [
+                      Container(
+                          child: Icon(
+                        Icons.supervisor_account,
+                        color: Colors.grey,
+                      )),
+                      Text("New Group",
+                          style: TextStyle(
+                            fontSize: 10,
+                            color: Colors.black,
+                          )),
+                    ],
                   ),
                   SizedBox(height: 10),
                   Row(
