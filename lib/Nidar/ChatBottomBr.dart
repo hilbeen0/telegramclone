@@ -25,7 +25,7 @@ class ChatBottomBr extends StatelessWidget{
                 Container(width: 16,
                 child: TextFormField(
                   style: TextStyle(
-                    fontSize: 19,
+                    fontSize: 15,
                   ),
                   decoration: InputDecoration(
                     hintText: "Message",
