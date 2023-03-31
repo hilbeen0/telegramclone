@@ -33,13 +33,13 @@ class ChatBottomBr extends StatelessWidget{
                   ),
                 ),
                 ),
-                SizedBox(width: 20,),
+                SizedBox(width: 50,),
                 Icon(Icons.attachment_outlined,
                 color: Colors.black38,
 
                 ),
                 
-                SizedBox(width: 25,),
+                SizedBox(width:40,),
                 Icon(Icons.mic,
                 color: Colors.black38,
                 size: 30,
