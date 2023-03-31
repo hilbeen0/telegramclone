@@ -21,45 +21,6 @@ class conectcard extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Padding(
-                      padding: EdgeInsets.only(left: 10),
-                      child: Row(
-                        children: [
-                          Container(
-                              child: Icon(
-                            Icons.supervisor_account,
-                            color: Colors.grey,
-                          )),
-                          Text("New Group",
-                              style: TextStyle(
-                                fontSize: 10,
-                                color: Colors.black,
-                              )),
-                        ],
-                      ),
-                    ),
-                  ),
-                  SizedBox(height: 10),
-                  Padding(
-                    padding: EdgeInsets.only(left: 10),
-                    child: Row(
-                      children: [
-                        Container(
-                            child: Icon(
-                          Icons.lock,
-                          color: Colors.grey,
-                        )),
-                        Text("New Secret Chat",
-                            style: TextStyle(
-                              fontSize: 10,
-                              color: Colors.black,
-                            )),
-                      ],
-                    ),
-                  ),
-                  SizedBox(height: 10),
-                  Padding(
-                    padding: EdgeInsets.only(left: 10),
                     child: Row(
                       children: [
                         Container(
@@ -67,13 +28,46 @@ class conectcard extends StatelessWidget {
                           Icons.supervisor_account,
                           color: Colors.grey,
                         )),
-                        Text("New Channel",
-                            style: TextStyle(
-                              fontSize: 10,
-                              color: Colors.black,
-                            )),
+                        Padding(
+                          padding: EdgeInsets.only(left: 10),
+                          child: Text("New Group",
+                              style: TextStyle(
+                                fontSize: 10,
+                                color: Colors.black,
+                              )),
+                        ),
                       ],
                     ),
+                  ),
+                  SizedBox(height: 10),
+                  Row(
+                    children: [
+                      Container(
+                          child: Icon(
+                        Icons.lock,
+                        color: Colors.grey,
+                      )),
+                      Text("New Secret Chat",
+                          style: TextStyle(
+                            fontSize: 10,
+                            color: Colors.black,
+                          )),
+                    ],
+                  ),
+                  SizedBox(height: 10),
+                  Row(
+                    children: [
+                      Container(
+                          child: Icon(
+                        Icons.supervisor_account,
+                        color: Colors.grey,
+                      )),
+                      Text("New Channel",
+                          style: TextStyle(
+                            fontSize: 10,
+                            color: Colors.black,
+                          )),
+                    ],
                   ),
                   SizedBox(
                     height: 5,
