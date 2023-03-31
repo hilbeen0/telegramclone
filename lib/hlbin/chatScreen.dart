@@ -112,6 +112,7 @@ class chat extends StatelessWidget {
                 ]),
               );
             }),
+            Divider(),
           ]),
         ),
       ),
