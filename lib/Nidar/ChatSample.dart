@@ -35,7 +35,7 @@ class ChatSample extends StatelessWidget{
              decoration: BoxDecoration(
                color: Color(0xFFE4FDCA)
              ),
-              child: Text("Hellow ,I am  fine and well,and thanks for asking .               4:30pm",
+              child: Text("Hellow ,I am  fine and well,and thanks for asking .            4:30pm",
               style: TextStyle(fontSize: 17,color: Colors.black),
               ),
               
