@@ -22,7 +22,7 @@ class ChatBottomBr extends StatelessWidget{
                 size: 30,
                 ),
                 SizedBox(width: 10,),
-                Container(width: 220,
+                Container(width: 230,
                 child: TextFormField(
                   style: TextStyle(
                     fontSize: 19,
