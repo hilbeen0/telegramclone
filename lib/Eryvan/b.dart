@@ -12,7 +12,7 @@ class newgr extends StatelessWidget {
         Container(
           child: Expanded(
             child: Container(
-              width: 1100,
+              width: 700,
               height: 75,
               color: Colors.white,
             ),

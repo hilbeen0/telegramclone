@@ -1,12 +1,18 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
+//import 'dart:html';
 
+// ignore_for_file: camel_case_types
+
+import 'package:flutter/material.dart';
+//import 'package:flutter/src/widgets/framework.dart';
+//import 'package:flutter/src/widgets/placeholder.dart';
+// ignore: depend_on_referenced_packages
+//import 'package:foood/contactcart.dart';
+//import 'date.dart';
 import '../hlbin/card.dart';
 import 'a.dart';
 import 'b.dart';
 import 'c.dart';
+//import 'date.dart';
 
 class newmessage extends StatelessWidget {
   const newmessage({super.key});
@@ -33,26 +39,6 @@ class newmessage extends StatelessWidget {
           child: ListView(
             children: [
               conectcard(),
-              group(),
-              newgr(),
-              Container(
-                width: 240.0,
-                height: 42.0,
-                decoration: BoxDecoration(
-                  color: Colors.white10,
-                ),
-                child: SizedBox(
-                  child: Text(
-                    'Sorted by name',
-                    style: TextStyle(
-                      fontFamily: 'Arial',
-                      fontSize: 18,
-                      color: Colors.grey,
-                      height: 1,
-                    ),
-                  ),
-                ),
-              ),
               const SizedBox(
                 height: 10,
               ),
@@ -73,28 +59,33 @@ class newmessage extends StatelessWidget {
                             shape: BoxShape.circle,
                             image: DecorationImage(image: AssetImage(imag)),
                           )),
-                      Padding(
-                        padding: EdgeInsets.only(left: 10),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              name,
-                              style: TextStyle(
-                                  color: Colors.black,
-                                  fontSize: 22,
-                                  fontWeight: FontWeight.w500),
+                      Column(
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.only(left: 10),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  name,
+                                  style: TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 22,
+                                      fontWeight: FontWeight.w500),
+                                ),
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                Text(
+                                  date,
+                                  style: TextStyle(
+                                      color: Colors.black, fontSize: 14),
+                                ),
+                              ],
                             ),
-                            SizedBox(
-                              height: 10,
-                            ),
-                            Text(
-                              date,
-                              style:
-                                  TextStyle(color: Colors.black, fontSize: 14),
-                            ),
-                          ],
-                        ),
+                          ),
+                          Divider(),
+                        ],
                       ),
                       const Spacer(),
                     ],

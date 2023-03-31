@@ -98,7 +98,7 @@ class chat extends StatelessWidget {
                                 width: 27,
                                 height: 27,
                                 decoration: BoxDecoration(
-                                    color: Color.fromARGB(156, 7, 145, 230),
+                                    color: Color.fromARGB(156, 8, 216, 43),
                                     borderRadius: BorderRadius.circular(20)),
                                 child: Text(
                                   num1.toString(),
