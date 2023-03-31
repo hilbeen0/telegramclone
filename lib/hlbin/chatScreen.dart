@@ -57,7 +57,7 @@ class chat extends StatelessWidget {
                               image: DecorationImage(image: AssetImage(imag)),
                             )),
                         Padding(
-                          padding: EdgeInsets.only(left: 15),
+                          padding: EdgeInsets.only(left: 10),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
