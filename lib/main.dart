@@ -13,7 +13,6 @@ void main() {
       '/profile': (context) => profile(),
       '/chat': (context) => chat(),
       '/newmessage': (context) => newmessage(),
-      //'/message': (context) => message(),
       '/profile1()': (context) => Profile1(),
     },
   ));

@@ -83,10 +83,19 @@ class _Profile1State extends State<Profile1> {
                 title: Text("notifications and sounds",
                 ),
               ),
+              
             Divider(),
             ListTile(
               leading: Icon(Icons.privacy_tip),
-              title: Text("privacy and setting"),
+              title: Text("Privacy and Setting"),
+            ),
+            ListTile(
+              leading: Icon(Icons.data_array),
+              title: Text("data and storage"),
+            ),
+            ListTile(
+              leading: Icon(Icons.chat),
+              title: Text("Chat setting"),
             )
                 ],
               ) ,
