@@ -6,14 +6,14 @@ import 'package:flutter/material.dart';
 
 
 
-class Profile extends StatefulWidget {
-  const Profile({super.key});
+class Profile1 extends StatefulWidget {
+  const Profile1({super.key});
 
   @override
-  State<Profile> createState() => _ProfileState();
+  State<Profile1> createState() => _Profile1State();
 }
 
-class _ProfileState extends State<Profile> {
+class _Profile1State extends State<Profile1> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -40,10 +40,14 @@ class _ProfileState extends State<Profile> {
             ),
             Container(
               decoration: BoxDecoration(color: Colors.white),
-              child:
-              Column(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: const [
-                  Text("Account"),
+                  Padding(
+                    padding: EdgeInsets.only(left: 15.0, top: 10),
+                    child: Text("Account",style: TextStyle(fontSize: 15,color: Colors.blue,fontWeight: FontWeight.bold),),
+                  ),
                   ListTile(
                 title: Text("7504546789",
                 ),
