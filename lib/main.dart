@@ -6,7 +6,7 @@ import 'package:telegramclone/alind/profileScreen.dart';
 import 'package:telegramclone/hlbin/chatScreen.dart';
 import 'package:telegramclone/rayan/profile1.dart';
 
-void main() {rf
+void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     initialRoute: '/chat',
