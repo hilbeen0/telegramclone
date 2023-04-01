@@ -8,12 +8,13 @@ import 'package:telegramclone/rayan/profile1.dart';
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: '/profile1',
+    initialRoute: '/chat',
     routes: {
       '/profile': (context) => profile(),
       '/chat': (context) => chat(),
       '/newmessage': (context) => newmessage(),
       //'/message': (context) => message(),
+      '/profile1': (context) => Profile1()
     },
   ));
 }
