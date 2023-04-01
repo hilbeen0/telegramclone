@@ -81,7 +81,7 @@ class conectcard extends StatelessWidget {
                   child: Text("Sorted by name",
                       style: TextStyle(
                         fontSize: 14,
-                        color: Colors.black,
+                        color: Colors.grey,
                         fontWeight: FontWeight.w700,
                       )),
                 ),

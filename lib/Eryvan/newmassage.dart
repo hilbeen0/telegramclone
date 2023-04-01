@@ -8,10 +8,11 @@ import 'package:flutter/material.dart';
 // ignore: depend_on_referenced_packages
 //import 'package:foood/contactcart.dart';
 //import 'date.dart';
-import '../hlbin/card.dart';
+
 import 'a.dart';
 import 'b.dart';
 import 'c.dart';
+import 'data.dart';
 //import 'date.dart';
 
 class newmessage extends StatelessWidget {
@@ -45,7 +46,7 @@ class newmessage extends StatelessWidget {
               ...List.generate(DataConfig.chate.length, (index) {
                 var imag = DataConfig.chate.elementAt(index).image;
                 var name = DataConfig.chate.elementAt(index).name;
-                var date = DataConfig.chate.elementAt(index).date;
+                var dat = DataConfig.chate.elementAt(index).datee;
 
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -77,7 +78,7 @@ class newmessage extends StatelessWidget {
                                   height: 10,
                                 ),
                                 Text(
-                                  date,
+                                  dat,
                                   style: TextStyle(
                                       color: Colors.black, fontSize: 14),
                                 ),

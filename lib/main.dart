@@ -4,6 +4,7 @@ import 'package:telegramclone/Nidar/MessageScreen.dart';
 import 'package:telegramclone/Nidar/chat_page.dart';
 import 'package:telegramclone/alind/profileScreen.dart';
 import 'package:telegramclone/hlbin/chatScreen.dart';
+import 'package:telegramclone/rayan/profile1.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -12,7 +13,8 @@ void main() {
       '/profile': (context) => profile(),
       '/chat': (context) => chat(),
       '/newmessage': (context) => newmessage(),
-      '/message': (context) => ChatPage(),
+      '/profile1': (context) => Profile1(),
+      '/message': (context) => ChatPage()
     },
   ));
 }
