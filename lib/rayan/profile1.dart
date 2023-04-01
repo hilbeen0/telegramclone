@@ -61,7 +61,7 @@ class _Profile1State extends State<Profile1> {
               ListTile(
                 title: Text("bio",
                 ),
-                subtitle: Text("about you"),
+                subtitle: Text("Add a few words about yourself"),
               ),
                 ],
               )),
@@ -76,7 +76,7 @@ class _Profile1State extends State<Profile1> {
                 children: const [
                   Padding(
                     padding: EdgeInsets.only(left: 15.0, top: 10),
-                    child: Text("sittings",style: TextStyle(fontSize: 15,color: Colors.blue,fontWeight: FontWeight.w700),),
+                    child: Text("Settings",style: TextStyle(fontSize: 15,color: Colors.blue,fontWeight: FontWeight.w700),),
                   ),
                   ListTile(
                     leading: Icon(Icons.alarm),
