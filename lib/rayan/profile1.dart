@@ -23,8 +23,8 @@ class _Profile1State extends State<Profile1> {
           iconTheme: IconThemeData(color: Colors.black),
           backgroundColor: Colors.white,
           leading: CircleAvatar(child: FlutterLogo(),),
-          title: Text("rayan",style: TextStyle(color: Colors.black),),
-          actions: const [Icon(Icons.search), Icon(Icons.more_vert)],
+          title: Text("alind barware",style: TextStyle(color: Colors.black),),
+          actions: const [Icon(Icons.barcode_reader),Icon(Icons.search), Icon(Icons.more_vert)],
         ),
         body: Column(
           children: [
