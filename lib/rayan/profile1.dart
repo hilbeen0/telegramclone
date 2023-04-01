@@ -46,7 +46,7 @@ class _Profile1State extends State<Profile1> {
                 children: const [
                   Padding(
                     padding: EdgeInsets.only(left: 15.0, top: 10),
-                    child: Text("Account",style: TextStyle(fontSize: 15,color: Colors.blue,fontWeight: FontWeight.bold),),
+                    child: Text("Account",style: TextStyle(fontSize: 15,color: Colors.blue,fontWeight: FontWeight.w700),),
                   ),
                   ListTile(
                 title: Text("7504546789",
@@ -64,8 +64,33 @@ class _Profile1State extends State<Profile1> {
                 subtitle: Text("about you"),
               ),
                 ],
-              )
+              )),
+               SizedBox(
+              height: 10,
             ),
+            Container(
+              decoration: BoxDecoration(color: Colors.white),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: const [
+                  Padding(
+                    padding: EdgeInsets.only(left: 15.0, top: 10),
+                    child: Text("sittings",style: TextStyle(fontSize: 15,color: Colors.blue,fontWeight: FontWeight.w700),),
+                  ),
+                  ListTile(
+                    leading: Icon(Icons.alarm),
+                title: Text("notifications and sounds",
+                ),
+              ),
+            Divider(),
+            ListTile(
+              leading: Icon(Icons.privacy_tip),
+              title: Text("privacy and setting"),
+            )
+                ],
+              ) ,
+            )
           ],
         ),
       ),
