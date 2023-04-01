@@ -90,7 +90,7 @@ class chat extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              height: 7,
+                              height: 8,
                             ),
                             if (num == true)
                               Container(
