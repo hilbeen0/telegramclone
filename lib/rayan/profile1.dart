@@ -25,7 +25,7 @@ class _Profile1State extends State<Profile1> {
           leading: CircleAvatar(child: FlutterLogo(),),
           title: Text("alind barware",style: TextStyle(color: Colors.black),),
           actions: const [Icon(Icons.search), Icon(Icons.more_vert)],
-          bottom: PreferredSize(preferredSize:Size.fromHeight(100) , child:Text("ut")),
+          bottom: PreferredSize(preferredSize:Size.fromHeight(100) , child:Text("")),
         ),
         body: Column(
           children: [
