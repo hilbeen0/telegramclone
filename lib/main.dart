@@ -8,6 +8,7 @@ import 'package:telegramclone/rayan/profile1.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     initialRoute: '/chat',
     routes: {
       '/profile': (context) => profile(),
