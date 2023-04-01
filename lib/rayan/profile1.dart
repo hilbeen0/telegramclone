@@ -22,9 +22,13 @@ class _Profile1State extends State<Profile1> {
         appBar: AppBar(
           iconTheme: IconThemeData(color: Colors.black),
           backgroundColor: Colors.blue,
-          leading: CircleAvatar(child: FlutterLogo(),),
+          leading: CircleAvatar(child: GestureDetector(
+            onTap:() {
+              Navigator.pop(context);
+            },
+            child: FlutterLogo()),),
           title: Text("alind barware",style: TextStyle(color: Colors.black),),
-          actions: const [Icon(Icons.search), Icon(Icons.more_vert)],
+          actions: const [Icon(Icons.qr_code),Icon(Icons.search), Icon(Icons.more_vert)],
           bottom: PreferredSize(preferredSize:Size.fromHeight(100) , child:Text("")),
         ),
         body: Column(
@@ -44,22 +48,29 @@ class _Profile1State extends State<Profile1> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children:  [
                   Padding(
                     padding: EdgeInsets.only(left: 15.0, top: 10),
                     child: Text("Account",style: TextStyle(fontSize: 15,color: Colors.blue,fontWeight: FontWeight.w700),),
                   ),
                   ListTile(
+                    onTap: () {
+
+                    },
                 title: Text("7504546789",
                 ),
                 subtitle: Text("tap to change phone number"),
               ),
-              ListTile(
+              ListTile(onTap: () {
+
+              },
                 title: Text("@alind",
                 ),
                 subtitle: Text("username"),
               ),
-              ListTile(
+              ListTile(onTap: () {
+
+              },
                 title: Text("Bio",
                 ),
                 subtitle: Text("Add a few words about yourself"),
@@ -74,12 +85,14 @@ class _Profile1State extends State<Profile1> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children:  [
                   Padding(
                     padding: EdgeInsets.only(left: 15.0, top: 10),
                     child: Text("Settings",style: TextStyle(fontSize: 15,color: Colors.blue,fontWeight: FontWeight.w700),),
                   ),
-                  ListTile(
+                  ListTile(onTap: () {
+
+                  },
                     leading: Icon(Icons.alarm),
                 title: Text("notifications and sounds",
                 ),
