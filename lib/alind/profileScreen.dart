@@ -13,7 +13,7 @@ class profile extends StatelessWidget {
       children: [
         GestureDetector(
           onTap: () {
-            Profile1();
+            Navigator.of(context).pushNamed('/profile1');
           },
           child: UserAccountsDrawerHeader(
             accountName: Text(
