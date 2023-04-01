@@ -43,7 +43,7 @@ class DataConfig {
     DataConfig(
       name: "Beyonce",
       datee: "online",
-      image: "images/i13.jpg",
+      image: "images/i12.jpg",
     ),
     DataConfig(
       name: "jusin Bieber",
