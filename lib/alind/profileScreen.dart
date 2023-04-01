@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:telegramclone/alind/datamodel.dart';
+import 'package:telegramclone/rayan/profile1.dart';
 
 class profile extends StatelessWidget {
   const profile({super.key});
@@ -11,7 +12,9 @@ class profile extends StatelessWidget {
     return ListView(
       children: [
         GestureDetector(
-          onTap: () {},
+          onTap: () {
+            Profile1();
+          },
           child: UserAccountsDrawerHeader(
             accountName: Text(
               "alnd barware",
