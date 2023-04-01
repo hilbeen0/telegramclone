@@ -24,7 +24,7 @@ class _Profile1State extends State<Profile1> {
           backgroundColor: Colors.white,
           leading: CircleAvatar(child: FlutterLogo(),),
           title: Text("alind barware",style: TextStyle(color: Colors.black),),
-          actions: const [Icon(Icons.barcode_reader),Icon(Icons.search), Icon(Icons.more_vert)],
+          actions: const [Icon(Icons.barcode_reader) ,Icon(Icons.search), Icon(Icons.more_vert)],
         ),
         body: Column(
           children: [
