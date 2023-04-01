@@ -25,6 +25,7 @@ class _Profile1State extends State<Profile1> {
           leading: CircleAvatar(child: FlutterLogo(),),
           title: Text("alind barware",style: TextStyle(color: Colors.black),),
           actions: const [Icon(Icons.search), Icon(Icons.more_vert)],
+          bottom: PreferredSize(preferredSize:Size.fromHeight(100) , child:Text("")),
         ),
         body: Column(
           children: [
@@ -59,7 +60,7 @@ class _Profile1State extends State<Profile1> {
                 subtitle: Text("username"),
               ),
               ListTile(
-                title: Text("bio",
+                title: Text("Bio",
                 ),
                 subtitle: Text("Add a few words about yourself"),
               ),
