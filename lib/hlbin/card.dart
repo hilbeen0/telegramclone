@@ -72,7 +72,7 @@ class DataConfig {
         num: false,
         num1: 0),
     DataConfig(
-        image: "images/i4.jpg",
+        image: "images/i13.jpg",
         name: "Kendall Jenner",
         mass: "Hi User  ,How are you?",
         date: '2023/2/1',
