@@ -21,10 +21,10 @@ class _Profile1State extends State<Profile1> {
         backgroundColor: Colors.grey,
         appBar: AppBar(
           iconTheme: IconThemeData(color: Colors.black),
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.blue,
           leading: CircleAvatar(child: FlutterLogo(),),
           title: Text("alind barware",style: TextStyle(color: Colors.black),),
-          actions: const [Icon(Icons.barcode_reader) ,Icon(Icons.search), Icon(Icons.more_vert)],
+          actions: const [Icon(Icons.search), Icon(Icons.more_vert)],
         ),
         body: Column(
           children: [
