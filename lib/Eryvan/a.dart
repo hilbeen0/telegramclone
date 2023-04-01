@@ -53,7 +53,7 @@ class conectcard extends StatelessWidget {
                     children: [
                       Container(
                           child: Icon(
-                        Icons.supervisor_account,
+                        Icons.wb_shade,
                         color: Colors.grey,
                       )),
                       Text("New Channel",
